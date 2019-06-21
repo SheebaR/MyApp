@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imm"
+    tools:context=".MainActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ಸೈನ್ ಅಪ್"
+        android:layout_marginTop="60dp"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#1f8112"
+        />
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ಖಾತೆ ಐಡಿ"
+        android:layout_below="@+id/login"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/edusrname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="ಖಾತೆ ಐಡಿ ನಮೂದಿಸಿ"
+        android:layout_below="@id/hint"
+        android:layout_marginLeft="50dp"
+        />
+    <TextView
+        android:id="@+id/hint2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ಪಾಸ್‌ವರ್ಡ್"
+        android:layout_below="@+id/edusrname"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/edpwdname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ"
+        android:inputType="textPassword"
+        android:layout_below="@id/hint2"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="45dp"
+        />
+        <TextView
+            android:id="@+id/pswd_wrng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/edpwdname"
+            android:textSize="12dp"
+            android:text="ಪಾಸ್ವರ್ಡ್ ಉದ್ದವು ಕನಿಷ್ಠ ಆರು ಅಕ್ಷರಗಳು ಆಗಿರಬೇಕು"
+            />
+    <TextView
+        android:id="@+id/hint3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ಮಣ್ಣಿನ ಕಾರ್ಡ್ ವರ್ಷವನ್ನು ನಮೂದಿಸಿ"
+        android:layout_below="@+id/pswd_wrng"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/hint44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ವರ್ಷವನ್ನು ನಮೂದಿಸಿ"
+        android:inputType="number"
+        android:layout_below="@id/hint3"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="45dp"
+        />
+    <LinearLayout
+        android:id="@+id/lin_lay1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/edpwdname"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:weightSum="10">
+
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:hint="ಸೈನ್ ಅಪ್"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#96808080"
+            android:textColorHint="#ffffff"
+            android:textSize="20dp"
+            android:padding="10dp"
+
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lin_lay2"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@+id/lin_lay1"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        >
+        <Button
+            android:id="@+id/sign_in"
+            android:backgroundTint="#45cbd1cb"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:text="ಈಗಾಗಲೇ ನೋಂದಾಯಿಸಲಾಗಿದೆ"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

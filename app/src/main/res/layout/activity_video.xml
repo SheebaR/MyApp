@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".npkcrop1">
+
+    <LinearLayout
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="NPK ಲೆಕ್ಕ"
+            android:textColor="#21602d"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="ಸಾರಜನಕ (ಕೇಜಿ/ಹೆಕ್ಟೇರ್)"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+
+            android:inputType="number"
+            android:id="@+id/insert1"
+            android:hint="ಸಾರಜನಕ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="ಪಾಸ್ಪರಸ್ (ಕೇಜಿ/ಹೆಕ್ಟೇರ್)"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+        <EditText
+
+            android:inputType="number"
+            android:id="@+id/insert2"
+            android:hint="ಪಾಸ್ಪರಸ್"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="ಪೊಟ್ಯಾಸಿಯಮ್ (ಕೇಜಿ/ಹೆಕ್ಟೇರ್)"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+        <EditText
+
+            android:inputType="number"
+            android:id="@+id/insert3"
+            android:hint="ಪೊಟ್ಯಾಸಿಯಮ್"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+
+            android:text="ಒಪ್ಪಿಸು"
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:id="@+id/tvurn1"
+            android:textStyle="bold"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:id="@+id/tvssp1"
+            android:textStyle="bold"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:id="@+id/insert4"
+            android:textStyle="bold"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

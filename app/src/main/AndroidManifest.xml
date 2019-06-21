@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sheeba.myapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".crop1" />
+        <activity android:name=".crop2" />
+        <activity android:name=".crop3" />
+        <activity android:name=".crop4" />
+        <activity android:name=".crop5" />
+        <activity android:name=".crop6" />
+        <activity android:name=".crop7" />
+        <activity android:name=".crop8" />
+        <activity android:name=".crop9" />
+        <activity android:name=".crop10" />
+        <activity android:name=".cropdisplay" />
+        <activity android:name=".fertilizer" />
+        <activity android:name=".video" />
+        <activity android:name=".npkcrop1" />
+        <activity android:name=".npkcrop2" />
+        <activity android:name=".nkpcrop3" />
+        <activity android:name=".npkcrop4" />
+        <activity android:name=".npkcrop5" />
+        <activity android:name=".npkcrop6" />
+        <activity android:name=".npkcrop7" />
+        <activity android:name=".npkcrop8" />
+    </application>
+
+</manifest>

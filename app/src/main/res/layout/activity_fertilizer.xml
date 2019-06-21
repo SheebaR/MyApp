@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/imm"
+    tools:context=".fertilizer">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:text="ಬೆಳೆ ಆಯ್ಕೆಮಾಡಿ "
+                android:textAlignment="center"
+                android:textColor="#1f8112"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10">
+
+                <ImageView
+                    android:layout_width="107dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_weight="3"
+                    android:padding="-20dp"
+                    android:src="@drawable/paddy"></ImageView>
+
+                <Button
+                    android:id="@+id/crop1npk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="7"
+                    android:text="ಭತ್ತ"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:weightSum="10">
+
+                <ImageView
+                    android:layout_width="109dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/sugarcane"></ImageView>
+
+
+                <Button
+                    android:id="@+id/crop2npk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/crop1"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="7"
+                    android:text="ಕಬ್ಬು "
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/cotton1"></ImageView>
+
+                <Button
+                    android:id="@+id/crop3npk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="7"
+                    android:text="ಹತ್ತಿ"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10">
+
+                <ImageView
+                    android:layout_width="112dp"
+                    android:layout_height="73dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/sunflower"></ImageView>
+
+                <Button
+                    android:id="@+id/crop4npk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="7"
+                    android:text="ಸೂರ್ಯಕಾಂತಿ"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10">
+
+                <ImageView
+                    android:layout_width="115dp"
+                    android:layout_height="56dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/wheatt"></ImageView>
+
+                <Button
+                    android:id="@+id/crop5npk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="7"
+                    android:text="ಗೋಧಿ"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10">
+
+                <ImageView
+                    android:layout_width="115dp"
+                    android:layout_height="72dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/mustard"></ImageView>
+
+                <Button
+                    android:id="@+id/crop6npk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="7"
+                    android:text="ಸಾಸಿವೆ"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10">
+
+                <ImageView
+                    android:layout_width="115dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="40dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/pulses"></ImageView>
+
+                <Button
+                    android:id="@+id/crop7npk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="7"
+                    android:text="ದ್ವಿದಳ ಧಾನ್ಯಗಳು"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10">
+
+                <ImageView
+                    android:layout_width="115dp"
+                    android:layout_height="72dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/maize"></ImageView>
+
+                <Button
+                    android:id="@+id/crop8npk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="7"
+                    android:text="ಮೆಕ್ಕೆ ಜೋಳ"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

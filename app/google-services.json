@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "206473130225",
+    "firebase_url": "https://agronutri-f32b8.firebaseio.com",
+    "project_id": "agronutri-f32b8",
+    "storage_bucket": "agronutri-f32b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206473130225:android:9d0b92c370c97bc9",
+        "android_client_info": {
+          "package_name": "com.example.sheeba.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206473130225-vbaas8bce9kn97mjahrgahe9c6qhqus0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sheeba.myapp",
+            "certificate_hash": "faf209b8ade43a3ee25a7bb95a8ff68589683297"
+          }
+        },
+        {
+          "client_id": "206473130225-n69r9s8752irssdtas42eoegkl7d38hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4QLaDdAWQqhcgzg2WbR7sD3yIuqS9xHE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206473130225-n69r9s8752irssdtas42eoegkl7d38hu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

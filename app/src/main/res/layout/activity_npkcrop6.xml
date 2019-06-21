@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".npkcrop6">
+
+    <LinearLayout
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="NPK ಲೆಕ್ಕ"
+            android:textColor="	#006400"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="ಯೂರಿಯಾ(ಕೇಜಿ/ಹೆಕ್ಟೇರ್)"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:inputType="number"
+            android:id="@+id/etnitrox6"
+            android:hint="ಯೂರಿಯಾ"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="ಎಸ್ಎಸ್ಪಿ(ಕೇಜಿ/ಹೆಕ್ಟೇರ್)"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:inputType="number"
+            android:id="@+id/etphos6"
+            android:layout_marginTop="15dp"
+            android:hint="ಸಿಂಗಲ್ ಸೂಪರ್ಫಾಸ್ಫೇಟ್ (ಎಸ್ಎಸ್ಪಿ)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="ಮುರೈಟ್ ಆಫ್ ಪೊಟಾಶ್(ಕೇಜಿ/ಹೆಕ್ಟೇರ್)"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:inputType="number"
+            android:id="@+id/etpot6"
+            android:layout_marginTop="15dp"
+            android:hint="ಮುರೈಟ್ ಆಫ್ ಪೊಟಾಶ್"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+
+            android:text="submit"
+            android:id="@+id/btnSubmit6"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:id="@+id/tvurn6"
+            android:textStyle="bold"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:id="@+id/tvssp6"
+            android:textStyle="bold"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:id="@+id/tvmop6"
+            android:textStyle="bold"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
